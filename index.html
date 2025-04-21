@@ -10,38 +10,176 @@
   </head>
   <body>
     <!-- Hero Area  -->
-    <div class="md:w-[1440px]">
-      <div class="h-[60px] pt-[8px] nav-shadow">
+    <div class="w-[] md:h-[544px]">
+      <div class="md:h-[60px] pt-[8px] nav-shadow">
         <section class="container">
-          <nav class="flex justify-between items-center pb-[10.71px]">
+          <nav
+            class="flex justify-between items-center pb-[10.71px] md:flex-row flex-col"
+          >
             <div class="">
               <img src="assets/img/logo.png" alt="" />
             </div>
-            <div class="flex gap-[40px] font-[Roboto]">
-              <ul class="flex gap-[37px] items-center text-sm font-medium">
-                <li><a href="#">Home</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Project</a></li>
-                <li><a href="">Blogs</a></li>
-                <li><a href="">Contact</a></li>
+            <div class="flex gap-[40px] font-[Roboto] md:flex-row flex-col">
+              <ul
+                class="flex gap-[37px] items-center text-sm font-medium md:flex-row flex-col"
+              >
+                <li class="border-b-2 border-[#DD3142]">
+                  <a href="#" class="py-[1px]">Home</a>
+                </li>
+
+                <li
+                  class="border-b-2 border-[#FFF] duration-250 hover:border-[#DD3142]"
+                >
+                  <a class="inline-block py-[1px]" href="#">About us</a>
+                </li>
+                <li
+                  class="border-b-2 border-[#FFF] duration-250 hover:border-[#DD3142]"
+                >
+                  <a href="" class="inline-block py-[1px]">Services</a>
+                </li>
+                <li
+                  class="border-b-2 border-[#FFF] duration-250 hover:border-[#DD3142]"
+                >
+                  <a href="" class="inline-block py-[1px]">Project</a>
+                </li>
+                <li
+                  class="border-b-2 border-[#FFF] duration-250 hover:border-[#DD3142]"
+                >
+                  <a href="" class="inline-block py-[1px]">Blogs</a>
+                </li>
+                <li
+                  class="border-b-2 border-[#FFF] duration-250 hover:border-[#DD3142]"
+                >
+                  <a href="" class="inline-block py-[1px]">Contact</a>
+                </li>
               </ul>
               <a
                 href=""
-                class="bg-[#DD3142] text-[#FFF] font-[Roboto] text-xs font-bold rounded-[5px] py-[11px] px-[9px]"
+                class="bg-[#DD3142] text-[#FFF] font-[Roboto] text-xs font-bold rounded-[5px] py-[11px] px-[9px] hover:bg-white hover:text-[#000] duration-250 tracking-normal"
                 >REQUEST A CALL BACK</a
               >
             </div>
           </nav>
         </section>
       </div>
-      <div class="">
-        <div class="flex">
-          <div class="">
-            <h1 class="text-[#000] font-[Bricolage Grotesque]">
-              CALL US FOR ANY
-            </h1>
-            <h1>PLUMBING NEEDS</h1>
+
+      <div class="mt-[48px] h-[384px]">
+        <div class="container">
+          <div class="flex md:flex-row flex-col">
+            <div class="pt-[106px]">
+              <div class="md:w-[384px] flex flex-col gap-[12px]">
+                <h1
+                  class="text-[#000] font-Bricolage-Grotesque text-[44px] font-extrabold leading-[52px]"
+                >
+                  CALL US
+                  <span class="text-white text-4xl">.</span>FOR ANY
+                  <span class="font-medium">PLUMBING NEEDS</span>
+                </h1>
+
+                <h3
+                  class="text-[#000] font-Bricolage-Grotesque text-[34px] font-extrabold tracking-tight"
+                >
+                  +1800-9938-2839
+                </h3>
+                <button
+                  class="bg-[#DD3142] w-[160px] h-[44px] text-[#FFF] font-[Roboto] text-base font-normal rounded-full"
+                >
+                  SEE ALL SERVICE
+                </button>
+              </div>
+            </div>
+
+            <div class="md:pl-[128px]">
+              <div class="flex items-center md:flex-row flex-col">
+                <img
+                  src="assets/img/image 10.png"
+                  alt=""
+                  class="md:w-[302px] h-[436px]"
+                />
+                <img
+                  src="assets/img/image 9.png"
+                  alt=""
+                  class="md:w-[390px] h-[341px] -ml-[35px]"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service Area -->
+    <div
+      class="bg-[#DD3142] h-[297px] mb-[250px] pt-[65px] pb-[34px] px-[220px]"
+    >
+      <div class="container mx-auto">
+        <div class="flex justify-center">
+          <div class="flex flex-col items-center px-[46px] pt-[10.8px]">
+            <img
+              src="assets/img/icon.png"
+              alt=""
+              class="w-[50.782px] height-[51.794px] flex inline-flex justify-center"
+            />
+            <h5 class="text-sm text-[#FFF] font-medium pt-[12px] text-center">
+              Residental Service
+            </h5>
+            <p
+              class="w-[237px] h-[53px] text-xs text-[#FFF] text-center font-normal leading-[16.02px] pt-[8px]"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry.
+            </p>
+            <button
+              class="underline text-sm font-medium w-[115px] h-[32px] rounded-[5px] bg-white text-[#000] mt-[15.12px]"
+            >
+              Learn More
+            </button>
+          </div>
+
+          <div
+            class="flex flex-col items-center px-[46px] pt-[10.8px] border-l-[1px] border-r-[1px] border-[#E6E6EB]"
+          >
+            <img
+              src="assets/img/icon (1).png"
+              alt=""
+              class="w-[48px] height-[48px] flex inline-flex justify-center"
+            />
+            <h5 class="text-sm text-[#FFF] font-medium pt-[12px] text-center">
+              Commercial Service
+            </h5>
+            <p
+              class="w-[244px] h-[56px] text-xs text-[#FFF] text-center font-normal leading-[16.02px] pt-[8px]"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry.
+            </p>
+            <button
+              class="underline text-sm font-medium w-[115px] h-[32px] rounded-[5px] bg-white text-[#000] mt-[15.12px]"
+            >
+              Learn More
+            </button>
+          </div>
+
+          <div class="flex flex-col items-center px-[46px] pt-[6px]">
+            <img
+              src="assets/img/icon (2).png"
+              alt=""
+              class="w-[60.05774px] height-[65.17912px] flex inline-flex justify-center"
+            />
+            <h5 class="text-sm text-[#FFF] font-medium text-center pt-[3px]">
+              Maintenance
+            </h5>
+            <p
+              class="w-[244px] h-[52px] text-xs text-[#FFF] text-center font-normal leading-[16.02px] pt-[8px]"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry.
+            </p>
+            <button
+              class="underline flex flex-inline justify-center items-center text-sm font-medium w-[115px] h-[32px] rounded-[5px] bg-white text-[#000] mt-[18.12px]"
+            >
+              Learn More
+            </button>
           </div>
         </div>
       </div>
