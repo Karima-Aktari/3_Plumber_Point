@@ -30,3 +30,10 @@ img {
 .font-Bricolage-Grotesque {
   font-family: "Bricolage Grotesque", sans-serif;
 }
+.bg-welcome {
+  background: url(../img/bg-image.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 1170px;
+  height: 405px;
+}

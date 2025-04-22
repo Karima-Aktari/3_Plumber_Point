@@ -19,7 +19,9 @@
             <div class="">
               <img src="assets/img/logo.png" alt="" />
             </div>
-            <div class="flex gap-[40px] font-[Roboto] md:flex-row flex-col">
+            <div
+              class="flex gap-[40px] font-[Roboto] md:flex-row flex-col items-center"
+            >
               <ul
                 class="flex gap-[37px] items-center text-sm font-medium md:flex-row flex-col"
               >
@@ -55,7 +57,7 @@
               </ul>
               <a
                 href=""
-                class="bg-[#DD3142] text-[#FFF] font-[Roboto] text-xs font-bold rounded-[5px] py-[11px] px-[9px] hover:bg-white hover:text-[#000] duration-250 tracking-normal"
+                class="bg-[#DD3142] md:h-[36px] text-[#FFF] font-[Roboto] text-xs font-bold rounded-[5px] py-[11px] px-[9px] hover:bg-white hover:text-[#000] duration-250 tracking-normal"
                 >REQUEST A CALL BACK</a
               >
             </div>
@@ -63,7 +65,7 @@
         </section>
       </div>
 
-      <div class="mt-[48px] h-[384px]">
+      <div class="mt-[48px] md:h-[384px]">
         <div class="container">
           <div class="flex md:flex-row flex-col">
             <div class="pt-[106px]">
@@ -77,12 +79,12 @@
                 </h1>
 
                 <h3
-                  class="text-[#000] font-Bricolage-Grotesque text-[34px] font-extrabold tracking-tight"
+                  class="text-[#000] font-Bricolage-Grotesque text-[34px] font-extrabold tracking-[-1.5px]"
                 >
                   +1800-9938-2839
                 </h3>
                 <button
-                  class="bg-[#DD3142] w-[160px] h-[44px] text-[#FFF] font-[Roboto] text-base font-normal rounded-full"
+                  class="bg-[#DD3142] md:w-[160px] md:h-[44px] text-[#FFF] font-[Roboto] text-base font-normal rounded-full"
                 >
                   SEE ALL SERVICE
                 </button>
@@ -109,77 +111,126 @@
     </div>
 
     <!-- Service Area -->
-    <div
-      class="bg-[#DD3142] h-[297px] mb-[250px] pt-[65px] pb-[34px] px-[220px]"
-    >
+    <div class="bg-[#DD3142] h-[297px] pt-[42px] pb-[27px] px-[220px]">
       <div class="container mx-auto">
-        <div class="flex justify-center">
-          <div class="flex flex-col items-center px-[46px] pt-[10.8px]">
-            <img
-              src="assets/img/icon.png"
-              alt=""
-              class="w-[50.782px] height-[51.794px] flex inline-flex justify-center"
-            />
-            <h5 class="text-sm text-[#FFF] font-medium pt-[12px] text-center">
-              Residental Service
-            </h5>
-            <p
-              class="w-[237px] h-[53px] text-xs text-[#FFF] text-center font-normal leading-[16.02px] pt-[8px]"
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry.
-            </p>
-            <button
-              class="underline text-sm font-medium w-[115px] h-[32px] rounded-[5px] bg-white text-[#000] mt-[15.12px]"
-            >
-              Learn More
-            </button>
+        <div class="flex justify-center md:flex-row flex-col">
+          <div class="pt-[33.8px] pl-[4px]">
+            <div class="flex flex-col items-center px-[44px]">
+              <img
+                src="assets/img/icon.png"
+                alt=""
+                class="w-[50.782px] height-[51.794px] flex inline-flex justify-center"
+              />
+              <h5
+                class="text-sm text-[#FFF] font-medium pt-[12.5px] text-center"
+              >
+                Residental Service
+              </h5>
+              <p
+                class="w-[237px] h-[53px] text-xs text-[#FFF] text-center font-normal leading-[16.02px] pt-[10px] pr-[2px]"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry.
+              </p>
+              <button
+                class="underline text-base font-medium w-[115px] h-[32px] rounded-[5px] bg-[#F6FAFB] text-[#000] mt-[17.12px] mb-[5px] ml-[4px]"
+              >
+                Learn More
+              </button>
+            </div>
           </div>
 
-          <div
-            class="flex flex-col items-center px-[46px] pt-[10.8px] border-l-[1px] border-r-[1px] border-[#E6E6EB]"
-          >
-            <img
-              src="assets/img/icon (1).png"
-              alt=""
-              class="w-[48px] height-[48px] flex inline-flex justify-center"
-            />
-            <h5 class="text-sm text-[#FFF] font-medium pt-[12px] text-center">
-              Commercial Service
-            </h5>
-            <p
-              class="w-[244px] h-[56px] text-xs text-[#FFF] text-center font-normal leading-[16.02px] pt-[8px]"
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry.
-            </p>
-            <button
-              class="underline text-sm font-medium w-[115px] h-[32px] rounded-[5px] bg-white text-[#000] mt-[15.12px]"
-            >
-              Learn More
-            </button>
+          <div class="px-[46px] border-l-[1px] border-r-[1px] border-[#E6E6EB]">
+            <div class="pt-[31.8px]">
+              <div class="flex flex-col items-center">
+                <img
+                  src="assets/img/icon (1).png"
+                  alt=""
+                  class="w-[48px] height-[48px] flex inline-flex justify-center"
+                />
+                <h5
+                  class="text-sm text-[#FFF] font-medium pt-[14px] text-center"
+                >
+                  Commercial Service
+                </h5>
+                <p
+                  class="w-[244px] h-[56px] text-xs text-[#FFF] text-center font-normal leading-[16.02px] pt-[10px]"
+                >
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry.
+                </p>
+                <button
+                  class="underline text-base font-medium w-[115px] h-[32px] rounded-[5px] bg-[#F6FAFB] text-[#000] mt-[19px] ml-[4.5px] mb-[5px]"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
           </div>
 
-          <div class="flex flex-col items-center px-[46px] pt-[6px]">
-            <img
-              src="assets/img/icon (2).png"
-              alt=""
-              class="w-[60.05774px] height-[65.17912px] flex inline-flex justify-center"
-            />
-            <h5 class="text-sm text-[#FFF] font-medium text-center pt-[3px]">
-              Maintenance
-            </h5>
-            <p
-              class="w-[244px] h-[52px] text-xs text-[#FFF] text-center font-normal leading-[16.02px] pt-[8px]"
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry.
-            </p>
-            <button
-              class="underline flex flex-inline justify-center items-center text-sm font-medium w-[115px] h-[32px] rounded-[5px] bg-white text-[#000] mt-[18.12px]"
-            >
-              Learn More
-            </button>
+          <div class="px-[46px] pt-[27.82px]">
+            <div class="flex flex-col items-center">
+              <img
+                src="assets/img/icon (2).png"
+                alt=""
+                class="w-[60.05774px] height-[65.17912px] flex inline-flex justify-center"
+              />
+              <h5 class="text-sm text-[#FFF] font-medium text-center pt-[5px]">
+                Maintenance
+              </h5>
+              <p
+                class="w-[244px] h-[52px] text-xs text-[#FFF] text-center font-normal leading-[16.02px] pt-[9.5px]"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry.
+              </p>
+              <button
+                class="underline flex flex-inline justify-center items-center text-base font-medium w-[115px] h-[32px] rounded-[5px] bg-[#F6FAFB] text-[#000] mt-[19px] ml-[13px]"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- welcome-video -->
+    <div class="mt-[81px] mb-[76px]">
+      <div class="container">
+        <div class="bg-welcome object-cover relative">
+          <div class="absolute">
+            <div class="flex items-center pt-[51px] pb-[61px]">
+              <div
+                class="bg-[#FFFFFFB2] md:w-[542px] h-[293px] pl-[49px] pt-[22px] pb-[17px] pr-[61px]"
+              >
+                <h2
+                  class="text-[#000] text-[44px] font-bold w-[366px] h-[104px] leading-13"
+                >
+                  Welcome to Plumber Company
+                </h2>
+                <p class="text-[#000] text-sm font-normal leading-4 pt-[12px]">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book
+                </p>
+
+                <button
+                  class="mt-[31px] bg-[#DD3142] rounded-full w-[136px] pb-[10px] pt-[8px] pb-[10px] text-white uppercase underline text-base font-normal inline-block"
+                >
+                  <a href="">Learn More</a>
+                </button>
+              </div>
+              <div class="pl-[7px] pt-[9px]">
+                <img
+                  src="assets/img/video icon.png"
+                  alt=""
+                  class="w-[73.676px] h-[73.676px]"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
